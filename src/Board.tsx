@@ -8,6 +8,10 @@ interface BoardProps {
   chanceIsLit: number;
 }
 
+function add(a,b) {
+  return a+b;
+}
+
 const Board: React.FC<BoardProps> = (props) => {
   const createBoard = (): boolean[][] => {
     let board: boolean[][] = [];
