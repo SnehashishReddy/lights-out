@@ -4,7 +4,9 @@ import Board from "./Board";
 const App = () => {
   return (
     <div className="App">
-      <Board nrows={4} ncols={9} chanceIsLit={0.25} />
+      <div>
+        <Board nrows={4} ncols={9} chanceIsLit={0.25} />
+      </div>
     </div>
   );
 };
